@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>K53 South Africa</title>
+    <!--<link rel="stylesheet" type="text/css" href="./css/style.css">-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="./img/images.png">
+
+</head>
+<body>
+    <div id="particles-js">
+        <div class="btext">
+            <h1>K53</h1>
+            <p>Learner's Test </p>
+            <p>Multiple Choice Questions</p>
+            <a href="./home_images/login.php" class="btn">Start...</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json',
+        function(){
+            console.log('particles.json loaded...')
+        })
+    </script>
+                    <div id="snackbars">
+            
+        </div>  
+</body>
+</html>
+<script type="text/javascript">
+                    var x = document.getElementById("snackbars");
+                x.className = "show";
+
+                setTimeout(function()
+                    { x.className = x.className.replace("show", "");
+                    }, 3000);
+                
+                document.getElementById("snackbars").innerHTML = "BETA version 1.0.0";
+</script>
